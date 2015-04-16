@@ -34,3 +34,12 @@ $('#tab a').click(function (e) {
         $(this).tab('show');
     }
 });
+
+$('#tabTenderete a').click(function (e) {
+    if ($(this).parent('li').hasClass('active')) {
+        $($(this).attr('href')).hide();
+    } else {
+        e.preventDefault();
+        $(this).tab('show');
+    }
+});
