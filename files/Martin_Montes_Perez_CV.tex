@@ -1,0 +1,146 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+%%======================================================================
+%% See the original template at
+%% http://mirrors.ctan.org/macros/latex/contrib/moderncv/examples/template.tex
+%% if you want more options for configuration
+%%======================================================================
+
+%%----------------------------------------------------------------------
+%% Preamble
+%%----------------------------------------------------------------------
+
+\moderncvtheme[grey,roman]{classic}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Fonts
+\usepackage{textcomp}
+\usepackage[protrusion=true,expansion=true]{microtype}
+% Bitstream Charter with mathdesign
+\usepackage[charter]{mathdesign} % serif: Bitstream Charter
+\usepackage[scaled]{beramono} % truetype: Bistream Vera Sans Mono
+\usepackage[scaled]{helvet} % sans-serif: Helvetica
+
+%% Adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+%% Personal data
+\firstname{\Huge Martín}
+\familyname{\Huge Montes Pérez}
+\title{\textit{Curriculum Vitae}}
+\address{A Laracha}{A Coruña, Spain}
+\mobile{606 92 11 01}
+%\phone{555-vulcan}
+%\fax{fax (optional)}
+\email{martin11lrx@gmail.com}
+\homepage{mmontes11.github.io}
+\github{github.com/mmontes11}
+\linkedin{linkedin.com/in/mmontesperez}
+%\extrainfo{additional information (optional)}
+\photo[64pt]{img/profile}                         % '64pt' is the height
+%\quote{Some quote (optional)}
+
+% to show numerical labels in the bibliography; only useful if you make
+% citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+% uncomment to suppress automatic page numbering for CVs longer than one page
+%\nopagenumbers{}
+
+%%----------------------------------------------------------------------
+%% Content
+%%----------------------------------------------------------------------
+
+%% Again, see original template for more options!
+
+\begin{document}
+\maketitle
+
+\section{Education}
+
+\cventry{2007-2009}{Bachelor of Sciences}{I.E.S. Agra de Leborís}{A Laracha}{}{}
+\cventry{September 2007}{Student Exchange}{Wellantcollege Anna Hoeve}{Rotterdam}{}{}
+\cventry{2009-2014}{Computer Science}{University of A Coruña}{A Coruña}{}{Specialized in Software Engineering}
+\cventry{2014}{Masters degree in Computer Science(MUEI)}{University of A Coruña}{A Coruña}{}{}
+
+\section{Complementary Training}
+
+\subsection{Internship}
+
+\cventry{2250}{Institution}{}{}{}{Description}
+
+\subsection{Courses taken}
+
+\cventry{2252}{Institution}{21h}{Effective statistical modelling with
+  \textsf{R}}{}{}
+
+
+\section{Experience}
+
+\subsection{Professional experience}
+
+\cventry{2252--2269}{Starfleet}{}{}{}{Several positions:
+  \begin{itemize}
+  \item Cadet
+  \item First officer and science officer
+  \item Commander
+  \end{itemize}
+}
+
+\subsection{Courses taught}
+
+\cventry{2277}{Starfleet Academy}{160h}{How to pilot a spaceship}{}{}
+
+\section{Interests}
+
+\cvline{}{Protect the Federation}
+\cvline{}{Peace in universe}
+
+\section{Computational Skills}
+\cvcomputer{Operating Systems}{Linux}{}{}
+\cvcomputer{Programming Languages}{\textsf{R}, C, Fortran, \LaTeX{}}{}{}
+\cvcomputer{Tools}{git, Shell}{}{}
+
+\section{Languages}
+\cvlanguage{Vulcan}{Native}{}
+\cvlanguage{English}{Fluent}{IELTS band 9}
+
+\section{Grants}
+
+\cventry{2260--2269}{Starfleet}{}{}{}{Money for the Enterprise}
+
+\section{Awards}
+
+\cventry{2277}{Starfleet Academy}{}{}{}{Captain emerit}
+
+\section{Publications}
+
+\subsection{Peer-reviewed publications}
+
+\cvline{1}{Xtmprszntwlfd, S. 2278. Title here. \textbf{Science}, 12(1):
+  234--678.} 
+
+\subsection{Books}
+
+\cvline{1}{Xtmprszntwlfd, S. 2280. \textbf{How to pilot
+    Enterprise}. Starfleet Press, 1982 p.}
+
+\subsection{Reports}
+
+\cvline{1}{Xtmprszntwlfd, S. \& Kirk, J. T.  \textbf{Secret activities
+    of the Enterprise}. Report.}
+
+\end{document}
+
+% Info about Spock found at
+% http://www.startrek.com/database_article/spock
+% http://en.wikipedia.org/wiki/Spock
