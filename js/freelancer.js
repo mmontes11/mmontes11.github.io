@@ -27,46 +27,35 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('#tabERP a').click(function (e) {
-    if ($(this).parent('li').hasClass('active')) {
-        $($(this).attr('href')).hide();
-    } else {
-        e.preventDefault();
+    if (!$(this).parent('li').hasClass('active')) {
         $(this).tab('show');
     }
 });
 
 $('#tabTenderete a').click(function (e) {
-    if ($(this).parent('li').hasClass('active')) {
-        $($(this).attr('href')).hide();
-    } else {
-        e.preventDefault();
+    if (!$(this).parent('li').hasClass('active')) {
         $(this).tab('show');
     }
 });
 
 $('#tabCharts a').click(function (e) {
-    if ($(this).parent('li').hasClass('active')) {
-        $($(this).attr('href')).hide();
-    } else {
-        e.preventDefault();
+    if (!$(this).parent('li').hasClass('active')) {
         $(this).tab('show');
     }
 });
 
 $('#tabPrediction a').click(function (e) {
-    if ($(this).parent('li').hasClass('active')) {
-        $($(this).attr('href')).hide();
-    } else {
-        e.preventDefault();
+    if (!$(this).parent('li').hasClass('active')) {
         $(this).tab('show');
     }
 });
 
 $('#tabSports a').click(function (e) {
-    if ($(this).parent('li').hasClass('active')) {
-        $($(this).attr('href')).hide();
-    } else {
-        e.preventDefault();
+    if (!$(this).parent('li').hasClass('active')) {
         $(this).tab('show');
     }
+});
+
+$('.newTabLink').click(function (e) {
+    window.open($(this).attr('url'));
 });
