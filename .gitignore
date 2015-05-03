@@ -1,0 +1,6 @@
+*.pgf
+*.aux
+*.log
+*.out
+*.gz
+.idea
