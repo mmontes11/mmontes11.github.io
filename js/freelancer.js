@@ -22,35 +22,7 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
-
-$('#tabERP a').click(function (e) {
-    if (!$(this).parent('li').hasClass('active')) {
-        $(this).tab('show');
-    }
-});
-
-$('#tabTenderete a').click(function (e) {
-    if (!$(this).parent('li').hasClass('active')) {
-        $(this).tab('show');
-    }
-});
-
-$('#tabCharts a').click(function (e) {
-    if (!$(this).parent('li').hasClass('active')) {
-        $(this).tab('show');
-    }
-});
-
-$('#tabPrediction a').click(function (e) {
-    if (!$(this).parent('li').hasClass('active')) {
-        $(this).tab('show');
-    }
-});
-
-$('#tabSports a').click(function (e) {
+$('.nav-tabs a').click(function (e) {
     if (!$(this).parent('li').hasClass('active')) {
         $(this).tab('show');
     }
