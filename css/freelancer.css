@@ -84,6 +84,11 @@ hr.star-primary:after {
     width: auto;
 }
 
+.img-profile {
+    max-height: 250px;
+    width: auto;
+}
+
 header {
     text-align: center;
     color: #fff;
