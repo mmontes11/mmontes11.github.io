@@ -80,7 +80,7 @@ hr.star-primary:after {
 }
 
 .img-portfolio-details {
-    height: 300px;
+    max-height: 300px;
     width: auto;
 }
 
@@ -407,7 +407,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin-bottom: 1%;
 }
 
 .portfolio-modal .modal-content .item-details {
