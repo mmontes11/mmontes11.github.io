@@ -20,14 +20,10 @@ $(function() {
 
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
-$('.nav-tabs a').click(function (e) {
+$('.nav-tabs a').click(function () {
     if (!$(this).parent('li').hasClass('active')) {
         $(this).tab('show');
     }
-});
-
-$('.newTabLink').click(function (e) {
-    window.open($(this).attr('url'));
 });
