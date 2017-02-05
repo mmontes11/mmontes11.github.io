@@ -23,3 +23,5 @@
 *.synctex.gz
 
 .idea/
+
+.DS_Store
