@@ -454,6 +454,10 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.portfolio-modal .portfolio-description {
+    text-align: left;
+}
+
 .certification-item {
     margin-top: 5%;
 }
