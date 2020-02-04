@@ -461,3 +461,25 @@ footer .footer-below {
 .certification-item {
     margin-top: 5%;
 }
+
+.about-links-item {
+    margin: 5px 5px 5px 5px;
+}
+
+@media(min-width:768px) {
+    .about-links-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:768px) {
+    .about-links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
