@@ -1,0 +1,22 @@
+{
+  "name": "mmontes11.github.io",
+  "version": "1.0.0",
+  "description": "It was created using [Start Bootstrap](http://startbootstrap.com/template-categories/portfolios/) and hosted by [Github Pages](https://pages.github.com/).",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmontes11/mmontes11.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmontes11/mmontes11.github.io/issues"
+  },
+  "homepage": "https://github.com/mmontes11/mmontes11.github.io#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
