@@ -82,13 +82,13 @@
                   Experienced software engineer with a demonstrated history of working in worldwide impact projects and products.               
                 </p>
                 <p>
-                  I'm very enthusiastic about my work and always motivated to take new challenges, specially when it comes to use cutting edge technologies to solve real world problems. Also eager to learn everyday and collaborate with others.              
+                  I am very enthusiastic about my work and always motivated to take new challenges, specially when it comes to use cutting edge technologies to solve real world problems. Also eager to learn everyday and collaborate with others.            
                 </p>
                 <p>
-                  My area of expertise is <strong>Kubernetes</strong> and <strong>Go</strong>, where I invest a considerable amount of time exploring and contributing to open source. I'm also Certified Kubernetes <strong><a href="https://drive.google.com/file/d/17hfWEJOfYl1HOLmX5yRH4It0xbykv9Nz/view?usp=sharing" target="blank">Administrator</a></strong> and <strong><a href="https://drive.google.com/file/d/1QPePQZHekaEWu-A4Hl-B1ZwM5Yedna_d/view?usp=sharing" target="blank">Application Developer</a></strong>.
+                  My area of expertise is <strong>Kubernetes</strong> and <strong>Go</strong>, where I invest a considerable amount of my time. I am currently engaged in the development of my independent open-source projects, such as <strong><a href="https://github.com/mariadb-operator/mariadb-operator" target="blank">mariadb-operator</a></strong>, and occasionally contribute to various Kubernetes ecosystem projects, including cert-manager. 
                 </p>
                 <p>
-                  Currently, I am working as a senior software enginer in a London scaleup company called <strong><a href="https://www.form3.tech/" target="blank">Form3</a></strong>.
+                  Currently, I am working as a senior software enginer in a London scaleup company called <strong><a href="https://www.form3.tech/" target="blank">Form3</a></strong>. We are building a multi-cloud platform on top of Kubernetes for processing payments in the three major cloud providers.
                 </p>
             </div>
         </div>
@@ -136,6 +136,16 @@
             </div>
         </div>
         <div class="row">
+          <div class="col-sm-6 portfolio-item">
+            <a href="#mariadb" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/mariadb_operator_light.png" class="img-responsive" alt="">
+            </a>
+          </div>
             <div class="col-sm-6 portfolio-item">
               <a href="#gotway" class="portfolio-link" data-toggle="modal">
                   <div class="caption">
@@ -144,16 +154,6 @@
                       </div>
                   </div>
                   <img src="img/portfolio/gotway_light.png" class="img-responsive" alt="">
-              </a>
-            </div>
-            <div class="col-sm-6 portfolio-item">
-              <a href="#mariadb" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                      <div class="caption-content">
-                          <i class="fa fa-search-plus fa-3x"></i>
-                      </div>
-                  </div>
-                  <img src="img/portfolio/mariadb_operator_light.png" class="img-responsive" alt="">
               </a>
             </div>
         </div>
@@ -246,6 +246,83 @@
     </a>
 </div>
 
+<div class="portfolio-modal modal fade" id="mariadb" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+              <div class="rl">
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="modal-body">
+                      <img src="img/portfolio/mariadb_operator_dark.png"
+                              class="img-responsive img-centered img-portfolio-details"
+                              alt="">
+
+                      <div class="tab-content">
+                          <ul class="nav nav-tabs">
+                              <li class="active">
+                                  <a href="#descriptionMariaDB" data-toggle="tab">Description</a>
+                              </li>
+                              <li>
+                                  <a href="#infoMariaDB" data-toggle="tab">Info</a>
+                              </li>
+                          </ul>
+                          <div id="descriptionMariaDB" class="tab-pane portfolio-description fade in active">
+                              <p>Run and operate MariaDB in a cloud native way. Declaratively manage your MariaDB using Kubernetes CRDs rather than imperative commands.</p>
+                              <ul>
+                                  <li>Provisioning highly configurable MariaDB servers</li>
+                                  <li>Multi-master HA via Galera. Automatic Galera cluster recovery</li>
+                                  <li>Single-master HA via SemiSync replication. Primary switchover. Automatic primary failover</li>
+                                  <li>Take and restore backups. Scheduled backups. Backup rotation</li>
+                                  <li>PVCs and Kubernetes volumes (i.e. NFS) backup storage</li>
+                                  <li>Bootstrap new instances from backups and volumes (i.e NFS)</li>
+                                  <li>Manage users, grants and logical databases</li>
+                                  <li>Configure connections for your applications</li>
+                                  <li>Orchestrate and schedule sql scripts</li>
+                                  <li>Prometheus metrics</li>
+                                  <li>Validation webhooks to provide CRD inmutability</li>
+                                  <li>Additional printer columns to report the current CRD status</li>
+                                  <li>CRDs designed according to the Kubernetes API conventions</li>
+                                  <li>GitOps friendly</li>
+                                  <li>Multi-arch distroless based image</li>
+                                  <li>Install it using kubectl, helm or OLM</li>
+                              </ul>
+                          </div>
+                          <div id="infoMariaDB" class="tab-pane fade">
+                              <dl class="dl-vertical">
+                                  <dt>
+                                  <h3>Status:</h3>
+                                  </dt>
+                                  <dd>
+                                      In Development
+                                  </dd>
+                                  <dt>
+                                  <h3>Date:</h3>
+                                  </dt>
+                                  <dd>
+                                      Jun 2022 – Present
+                                  </dd>
+                                  <dt>
+                              </dl>
+                          </div>
+
+                      </div>
+                      <div class="row">
+                          <a href="https://github.com/mmontes11/mariadb-operator" class="btn btn-primary btn-lg" target="_blank">
+                            <span class="fab fa-github"></span> mariadb-operator
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 <div class="portfolio-modal modal fade" id="gotway" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -275,13 +352,13 @@
                               <p>Cloud native API Gateway powered with in-redis cache.</p>
                               <ul>
                                   <li>API composition: expose your services to the internet using a single endpoint</li>
-                                  <li>Cloud native: configure routing and cache using <a href="https://github.com/gotway/gotway/blob/develop/manifests/examples/catalog.yml" target="blank">Kubernetes CRDs</a></li>
+                                  <li>Cloud native: configure routing and cache using Kubernetes CRDs</li>
                                   <li>In-memory cache using redis</li>
                                   <li>Cache invalidation using tags</li>
                                   <li>Health checking</li>
-                                  <li>Management <a href="https://github.com/gotway/gotway#management-rest-api" target="blank">REST API</a></li>
-                                  <li>~6MB <a href="https://hub.docker.com/r/gotwaygateway/gotway/tags?page=1&ordering=last_updated" target="blank">Docker image</a> available for multiple architectures</li>
-                                  <li><a href="https://github.com/gotway/charts" target="blank">Helm chart</a></li>
+                                  <li>Management REST API</li>
+                                  <li>~6MB Docker image available for multiple architectures</li>
+                                  <li>Helm chart</li>
                               </ul>
                           </div>
                           <div id="infoGotway" class="tab-pane fade">
@@ -299,114 +376,13 @@
                                       May 2020 – Present
                                   </dd>
                                   <dt>
-                                  <h3>Team:</h3>
-                                  </dt>
-                                  <dd>
-                                      <i class="fa fa-user"></i>
-                                      <i class="fa fa-user"></i>
-                                  </dd>
                               </dl>
                           </div>
 
                       </div>
                       <div class="row">
-                          <a href="https://github.com/gotway/gotway" class="btn btn-default" target="_blank">
-                            <i class="fab fa-github"></i> GitHub
-                          </a>
-                          <a href="https://hub.docker.com/r/gotwaygateway/gotway/tags?page=1&ordering=last_updated" class="btn btn-default" target="_blank">
-                            <i class="fab fa-docker"></i> DockerHub
-                          </a>
-                          <a href="https://github.com/gotway/charts" class="btn btn-default" target="_blank">
-                            <i class="fab fa-github"></i> Helm Chart
-                          </a>
-                          <a class="btn btn-default" data-dismiss="modal">
-                              <i class="fa fa-times"></i> Close
-                          </a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="mariadb" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-              <div class="rl">
-              </div>
-          </div>
-      </div>
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                  <div class="modal-body">
-                      <img src="img/portfolio/mariadb_operator_dark.png"
-                              class="img-responsive img-centered img-portfolio-details"
-                              alt="">
-
-                      <div class="tab-content">
-                          <ul class="nav nav-tabs">
-                              <li class="active">
-                                  <a href="#descriptionMariaDB" data-toggle="tab">Description</a>
-                              </li>
-                              <li>
-                                  <a href="#infoMariaDB" data-toggle="tab">Info</a>
-                              </li>
-                          </ul>
-                          <div id="descriptionMariaDB" class="tab-pane portfolio-description fade in active">
-                              <p>Run and operate MariaDB in a cloud native way. Declaratively manage your MariaDB using Kubernetes <a href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/" target="_blank">CRDs</a> rather than imperative commands.</p>
-                              <ul>
-                                  <li>Provisioning highly configurable MariaDB servers</li>
-                                  <li>Take and restore backups</li>
-                                  <li>Bootstrap new instances from a backup</li>
-                                  <li>Support for managing users, grants and logical databases</li>
-                                  <li>Prometheus metrics</li>
-                                  <li>Validation webhooks to provide CRD inmutability</li>
-                                  <li>Additional printer columns to report the current CRD status</li>
-                                  <li>CRDs designed according to the Kubernetes <a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md" target="blank">API conventions</a></li>
-                                  <li><a href="https://opengitops.dev/" target="blank">GitOps</a> friendly</li>
-                                  <li>Multi-arch <a href="https://hub.docker.com/repository/docker/mmontes11/mariadb-operator/tags?page=1&ordering=last_updated" target="blank">Docker</a> image</li>
-                                  <li><a href="https://github.com/mmontes11/mariadb-operator/blob/main/helm/mariadb-operator" target="blank">Helm</a> chart</li>
-                              </ul>
-                          </div>
-                          <div id="infoMariaDB" class="tab-pane fade">
-                              <dl class="dl-vertical">
-                                  <dt>
-                                  <h3>Status:</h3>
-                                  </dt>
-                                  <dd>
-                                      In Development
-                                  </dd>
-                                  <dt>
-                                  <h3>Date:</h3>
-                                  </dt>
-                                  <dd>
-                                      Jun 2022 – Present
-                                  </dd>
-                                  <dt>
-                                  <h3>Team:</h3>
-                                  </dt>
-                                  <dd>
-                                      <i class="fa fa-user"></i>
-                                  </dd>
-                              </dl>
-                          </div>
-
-                      </div>
-                      <div class="row">
-                          <a href="https://github.com/mmontes11/mariadb-operator" class="btn btn-default" target="_blank">
-                            <i class="fab fa-github"></i> GitHub
-                          </a>
-                          <a href="https://hub.docker.com/repository/docker/mmontes11/mariadb-operator/tags?page=1&ordering=last_updated" class="btn btn-default" target="_blank">
-                            <i class="fab fa-docker"></i> DockerHub
-                          </a>
-                          <a href="https://github.com/mmontes11/mariadb-operator/blob/main/helm/mariadb-operator" class="btn btn-default" target="_blank">
-                            <i class="fab fa-github"></i> Helm Chart
-                          </a>
-                          <a class="btn btn-default" data-dismiss="modal">
-                              <i class="fa fa-times"></i> Close
+                          <a href="https://github.com/gotway/gotway" class="btn btn-primary btn-lg" target="_blank">
+                            <i class="fab fa-github"></i> gotway
                           </a>
                       </div>
                   </div>
