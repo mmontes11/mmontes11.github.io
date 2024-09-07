@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
           type="text/css">
@@ -65,7 +65,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive img-profile img-circle" src="img/profile.jpeg" alt="">
+                <img class="img-responsive img-profile img-circle" src="img/profile.png" alt="">
 
                 <div class="intro-text">
                     <span class="name">Martín Montes Pérez</span>
@@ -94,43 +94,31 @@
                   I am very enthusiastic about my work and always motivated to take new challenges, specially when it comes to use cutting edge technologies to solve real world problems. Also eager to learn everyday and collaborate with others.            
                 </p>
                 <p>
-                  My area of expertise is <strong>Kubernetes</strong> and <strong>Go</strong>, where I invest a considerable amount of my time. I am currently engaged in the development of my independent open-source projects, such as <strong><a href="https://github.com/mariadb-operator/mariadb-operator" target="blank">mariadb-operator</a></strong>, and occasionally contribute to various Kubernetes ecosystem projects, including cert-manager. 
+                  My area of expertise is <strong>Kubernetes</strong> and <strong>Go</strong>, where I invest a considerable amount of my time. I am currently engaged in the development of my independent open-source projects, such as <strong><a href="https://github.com/mariadb-operator/mariadb-operator" target="blank">mariadb-operator</a></strong>, and occasionally contribute to various Kubernetes ecosystem projects, including cert-manager and Prometheus. 
                 </p>
                 <p>
-                  Currently, I am working as a senior software enginer in a London scaleup company called <strong><a href="https://www.form3.tech/" target="blank">Form3</a></strong>. We are building a multi-cloud platform on top of Kubernetes for processing payments in the three major cloud providers.
+                  I am currently working as a <strong>Senior Software Engineer</strong> at <strong>MariaDB Corporation</strong>, where I maintain <strong><a href="https://github.com/mariadb-operator/mariadb-operator" target="blank">mariadb-operator</a></strong>. My main responsibilities include developing new features for the operator, supporting our vibrant community, and contributing to the development of an enterprise version of the product.
                 </p>
             </div>
         </div>
         <br/>
         <div class="about-links-container">
-            <div class="about-links-item">
-                <a href="files/Martin_Montes_Perez_CV.pdf" class="btn btn-info"
-                    download="Martin_Montes_Perez_CV.pdf">
-                    <i class="fa fa-download"></i> CV
-                </a>
-            </div>
-            <div class="about-links-item text-center">
-                <a href="https://www.linkedin.com/in/mmontesperez" class="btn btn-info"
-                    target="blank">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-            </div>
-            <div class="about-links-item text-center">
-                <a href="https://github.com/mmontes11" class="btn btn-info"
-                    target="blank">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-            </div>
-            <div class="about-links-item text-center">
-                <a href="https://mmontes11.medium.com" class="btn btn-info"
-                    target="blank">
-                    <i class="fab fa-medium"></i> Medium
-                </a>
-            </div>
-            <div class="about-links-item text-center">
-              <a href="https://twitter.com/m_montes11" class="btn btn-info"
+          <div class="about-links-item">
+              <a href="files/Martin_Montes_Perez_CV.pdf" class="btn btn-info"
+                  download="Martin_Montes_Perez_CV.pdf">
+                  <i class="fa fa-download"></i> CV
+              </a>
+          </div>
+          <div class="about-links-item text-center">
+              <a href="https://www.linkedin.com/in/mmontesperez" class="btn btn-info"
                   target="blank">
-                  <i class="fab fa-twitter"></i> Twitter
+                  <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+          </div>
+          <div class="about-links-item text-center">
+              <a href="https://github.com/mmontes11" class="btn btn-info"
+                  target="blank">
+                  <i class="fab fa-github"></i> GitHub
               </a>
           </div>
         </div>
@@ -210,7 +198,7 @@
             <div class="row">
                 <div class="footer-col col-md-4">
                     <h3>Location</h3>
-                    <p>A Coruña, Spain</p>
+                    <p>Spain</p>
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Around the Web</h3>
@@ -222,11 +210,14 @@
                             <a href="https://github.com/mmontes11" target="_blank" class="btn-social btn-outline">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://mmontes11.medium.com" target="_blank" class="btn-social btn-outline">
-                                <i class="fab fa-medium"></i>
+                            <a href="https://www.reddit.com/user/mmontes11/" target="_blank" class="btn-social btn-outline">
+                              <i class="fab fa-reddit"></i>
                             </a>
                             <a href="https://twitter.com/m_montes11" target="_blank" class="btn-social btn-outline">
-                              <i class="fab fa-twitter"></i>
+                              <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://mmontes11.medium.com" target="_blank" class="btn-social btn-outline">
+                                <i class="fab fa-medium"></i>
                             </a>
                         </li>
                     </ul>
@@ -283,22 +274,32 @@
                           <div id="descriptionMariaDB" class="tab-pane portfolio-description fade in active">
                               <p>Run and operate MariaDB in a cloud native way. Declaratively manage your MariaDB using Kubernetes CRDs rather than imperative commands.</p>
                               <ul>
-                                  <li>Provisioning highly configurable MariaDB servers</li>
-                                  <li>Multi-master HA via Galera. Automatic Galera cluster recovery</li>
-                                  <li>Single-master HA via SemiSync replication. Primary switchover. Automatic primary failover</li>
-                                  <li>Take and restore backups. Scheduled backups. Backup rotation</li>
-                                  <li>PVCs and Kubernetes volumes (i.e. NFS) backup storage</li>
-                                  <li>Bootstrap new instances from backups and volumes (i.e NFS)</li>
-                                  <li>Manage users, grants and logical databases</li>
-                                  <li>Configure connections for your applications</li>
-                                  <li>Orchestrate and schedule sql scripts</li>
-                                  <li>Prometheus metrics</li>
-                                  <li>Validation webhooks to provide CRD inmutability</li>
-                                  <li>Additional printer columns to report the current CRD status</li>
-                                  <li>CRDs designed according to the Kubernetes API conventions</li>
-                                  <li>GitOps friendly</li>
-                                  <li>Multi-arch distroless based image</li>
-                                  <li>Install it using kubectl, helm or OLM</li>
+                                <li>Easily provision MariaDB servers in Kubernetes.</li>
+                                <li>Highly configurable MariaDB servers.</li>
+                                <li>Multiple HA modes: Galera and SemiSync Replication.</li>
+                                <li>Automated primary failover.</li>
+                                <li>Automated Galera cluster recovery.</li>
+                                <li>Enhanced HA with MaxScale: a sophisticated database proxy, router, and load balancer designed specifically for and by MariaDB.</li>
+                                <li>Flexible storage configuration. Volume expansion.</li>
+                                <li>Take and restore backups.</li>
+                                <li>Scheduled backups.</li>
+                                <li>Multiple backup storage types: S3 compatible, PVCs and Kubernetes volumes.</li>
+                                <li>Backup retention policy.</li>
+                                <li>Target recovery time: infer which backup to restore.</li>
+                                <li>Bootstrap new instances from: Backups, S3, PVCs ...</li>
+                                <li>Rolling updates: roll out replica Pods one by one, wait for each of them to become ready, and then proceed with the primary Pod.</li>
+                                <li>my.cnf configuration. Automatically trigger rolling updates when my.cnf changes.</li>
+                                <li>Suspend operator reconciliation for maintenance and progressive upgrades.</li>
+                                <li>Prometheus metrics via mysqld-exporter.</li>
+                                <li>Declaratively manage SQL resources: users, grants and logical databases.</li>
+                                <li>Configure connections for your applications.</li>
+                                <li>Orchestrate and schedule sql scripts.</li>
+                                <li>Validation webhooks to provide CRD immutability.</li>
+                                <li>Additional printer columns to report the current CRD status.</li>
+                                <li>CRDs designed according to the Kubernetes API conventions.</li>
+                                <li>GitOps friendly.</li>
+                                <li>Multi-arch distroless based image.</li>
+                                <li>Install it using kubectl, helm or OLM.</li>
                               </ul>
                           </div>
                           <div id="infoMariaDB" class="tab-pane fade">
